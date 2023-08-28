@@ -30,6 +30,8 @@ Job titles :‌
 
 ---
 Vectorized by **tf-idf** and **freq-word** algorithms and for **tf-idf** use **ch2** for select best feature.
+
+
 By algorithms
 
 *  KNN
