@@ -29,7 +29,7 @@ Job titles :‌
 ![image](https://github.com/parvvaresh/resume-classification/assets/89921883/08ac5a11-5575-4c13-b027-c498f5d79dbc)
 
 ---
-Vectorized by **tf-idf** and **freq-word** algorithms
+Vectorized by **tf-idf** and **freq-word** algorithms and for **tf-idf** use **ch2** for select best feature.
 By algorithms
 
 *  KNN
@@ -42,6 +42,7 @@ classifiction the resumes
 
 | name of ALG | accuracy with tf-idf    | accuracy with frew-word
 | :---:   | :---: | :---: |
-| knn   | :---: | :---: |
-| Native bayesn   | :---: | :---: |
-| random forest   | :---: | :---: |
+| knn   | 73.52 %| 64.70 % |
+| Native bayesn   | 8.82 % | 29.41 % |
+| descion tree   | 32.35 % | 26.47 % |
+| random forest   | 32.35 %| 26.47 % |
