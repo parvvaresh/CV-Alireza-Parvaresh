@@ -1,0 +1,182 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large Alireza Parvaresh}\\[2pt] % Name
+Tehran, Tehran | \href{mailto:example@example.com}{a.parvaresh@itrc.ac.ir} | (+98) 915-380-3313 | \href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/parvvaresh/} | iran Citizen % Contact info
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Amirkabir University of Technology (among the top 3 universities in Iran)}, Tehran, Iran \hfill Enrolled: Oct 2020 | Expected: Oct 2025\\ % University name and location
+Bachelor's degree \hfill Overall GPA: 3.78\\ % Degree and GPA
+Selected Courses: Linear  Algebra: A+, Programming Basics and advance: A+,  data structure: A+, Basics of probability: A+, Data Base : A+ \hfill
+
+\section{Research Interests}
+
+
+% \entry{Some Scholarship \hfill 2018\textendash 2020}\textbf{ $\bullet$ Human-Computer Interaction}\hspace*{16pt}
+\textbf{ $\bullet$ Artificial Intelligence}\hspace*{16pt}
+\textbf{ $\bullet$ Machine Learning} \hspace*{16pt}
+\textbf{ $\bullet$ Deep Learning}\hspace*{16pt}
+\textbf{ $\bullet$ Computer Vision}\hspace*{16pt}\\
+\textbf{ $\bullet$ Reinforcement Learning}\hspace*{16pt}
+\textbf{ $\bullet$ Autonomous Vehicles}	\hspace*{16pt}	
+\textbf{ $\bullet$ Recommender Systems}\hspace*{16pt}
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{IRAN Telecommunication Research Center} \hfill Tehran, Iran\\ % Company name and location
+\textit{NLP Engineer | Researcher} \hfill 2022 Sep - Present % Position and duration
+\begin{itemize}
+    \item In the lab, we analyze textual data and test and evaluate products based on artificial intelligence. % Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{Zarinpal} \hfill Tehran, Iran\\ % Company name and location
+\textit{Data Analyst} \hfill Jul 2023 - Sep 2023\\   % Position and duration
+
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{CS50xTehran} \hfill Tehran, Iran
+% Project or organization name and location
+
+\textit{Teaching Assistant} \hfill Jul 2023 - Sep 2023  % Position and duration
+\begin{itemize}
+    \item Assistant teacher of Harvard University's Basics of Programming and Artificial Intelligence course. % Responsibilities and achievements
+\end{itemize}
+
+% Club or Organization Experience
+\noindent
+\textbf{University of Tehran} \hfill Tehran, Iran\\ % Club or organization name and location
+\textit{Teaching Assistant and Head TA} \hfill Jan 2023 - Present % Position and duration
+\begin{itemize}
+    \item introduction to python -spring 2023
+    \item  data base - spring 2023
+    \item  head of TA (Introduction to python -fall 2023)
+    \item  head of TA (data base - fall 2023)  
+\end{itemize}
+
+\noindent
+\textbf{Amirkabir University of Technology - Tehran Polytechnic} \hfill Tehran, Iran\\ % Club or organization name and location
+\textit{Teacher Assistant} \hfill Nov 2022 - Jan 2023% Position and duration
+\begin{itemize}
+    \item introduction to python -fall 2022
+    \item  data base - spring 2023
+    \item  data  mining spring 2023
+\end{itemize}
+
+
+\noindent
+\textbf{Scientific Student Association of Engineering Science Department} \hfill Tehran, Iran\\ % Club or organization name and location
+\textit{Teacher} \hfill Sep 2023 - Present % Position and duration
+\begin{itemize}
+    \item Database conceptual design workshop  and SQL instructor. % Responsibilities and achievements
+\end{itemize}
+
+
+
+
+% Projects Section
+\section*{PROJECTS}
+
+\noindent
+\textbf{Evaluation of machine-translation by NLP} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/Evaluation-of-machine-translation-by-NLP} \hfill 
+\begin{itemize}
+    \item To evaluate machine translation, they use several methods, some of which we fully implemented % Project description and contributions
+\end{itemize}
+
+
+
+\noindent
+\textbf{spotify recommendation system} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/spotify-recommendation-system} \hfill 
+\begin{itemize}
+    \item Cosine similarity is one of the most widely used and powerful similarity measure in Data Science. It is used in multiple applications such as finding similar documents in NLP, information retrieval, finding similar sequence to a DNA in bioinformatics, detecting plagiarism and may more. % Project description and contributions
+\end{itemize}
+
+
+
+\noindent
+\textbf{Autocorrect Text using NLP in Python} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/Autocorrect} \hfill 
+\begin{itemize}
+    \item Automatic correction is implemented by 2 algorithms eidt distance and jaccard_similarity and both correct words automatically with high accuracy.
+This program supports 2 languages, Farsi and English % Project description and contributions
+
+\noindent
+\textbf{Face Mask Detection using TensorFlow and OpenCV} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/face-mask} \hfill 
+\begin{itemize}
+    \item using a pre-trained MobileNetV2 model with TensorFlow and OpenCV. It can process live video from a webcam and classify faces as wearing a mask or not wearing a mask. % Project description and contributions
+\end{itemize}
+
+\noindent
+\textbf{Knowledge Graph} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/Knowledge-Graph} \hfill 
+\begin{itemize}
+    \item science and it is possible to obtain a general visualization of the data A knowledge graph can be created by using the subject and the object in the sentences and the main verb in the sentence. Note that sentences must be extracted that have exactly one subject and one object. % Project description and contributions
+\end{itemize}
+
+
+
+\end{itemize}
+\textbf{email Persian spam detection with ML algoritms} \hfill \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/parvvaresh/email-spam-detection} \hfill 
+\begin{itemize}
+    \item we use 2 algoritms for word to vec :\\
+
+            1.  tf-idf\\
+            2.  freq word\\
+            we use 6 algoritms for classifiction:\\
+            
+            1.  KNN\\
+            2.  Logstic Regression\\
+            3.  Decision Tree\\
+            4.  Random Forest\\
+            5.  Naive Bayes\\
+            6.  SVM\\
+            we use hazm for pre process
+ % Project description and contributions
+\end{itemize}
+
+
+
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Programming Languages:} Python , My SQL, R, C, C++. % Programming skills
+    \item \textbf{Libraries and Frameworks:} TensorFlow, Scikit-Learn, Numpy, Pandas, Matplotlib, Seoborn, Hazm, NLTK,  % Software skills
+    \item \textbf{Environments and Tools:} Linux, Git, Postman % Software skills
+    \item \textbf{Miscellaneous} LATEX % Software skills
+
+
+\end{itemize}
+
+% End document
+\end{document}
