@@ -1,5 +1,4 @@
-# CV Versions Repository - README
-
+# CV Versions Repository 
 Welcome to the GitHub repository for different versions of my CV. This repository contains various iterations of my CV to track changes over time and cater to different needs and audiences.
 
 ## Repository Structure
